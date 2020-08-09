@@ -1,2 +1,48 @@
-.box {
-  width: 10px; }
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #E4AEAF;
+  cursor: default; }
+
+ul {
+  padding: 0; }
+
+.main__title {
+  font-size: 130px;
+  color: white; }
+
+.main__portfolios {
+  list-style: none; }
+  .main__portfolios .portfolio {
+    border-top: 1px solid black;
+    margin: 0 auto;
+    transition: transform 300ms ease-in-out; }
+    .main__portfolios .portfolio a {
+      overflow: hidden;
+      position: relative;
+      text-decoration: none;
+      border-bottom: 1px solid black;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .main__portfolios .portfolio a:hover {
+        background: url("/image/cat.jpeg") center/cover no-repeat; }
+      .main__portfolios .portfolio a .portfolio__number {
+        position: absolute;
+        top: 10px;
+        color: white;
+        font-size: 20px; }
+      .main__portfolios .portfolio a .portfolio__description {
+        color: black;
+        font-size: 100px; }
+      .main__portfolios .portfolio a .portfolio__description span {
+        font-weight: 900;
+        display: block;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        overflow: hidden;
+        white-space: nowrap; }

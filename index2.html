@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .portfolio__description {
+      /* display: flex; */
+      /* overflow: hidden; */
+    }
+
+    span {
+      display: block;
+      white-space: nowrap;
+      font-size: 100px;
+      width: 100%;
+    }
+
+    span:nth-child(1) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* animation: move 5s linear; */
+    }
+
+    span:nth-child(2) {
+      position: absolute;
+      top: 50px;
+      transform: translateX(100%);
+      /* animation: move2 5s linear 3s; */
+    }
+
+    @keyframes move {
+      from {
+        transform: translate(0)
+      }
+
+      to {
+        transform: translate(-100%)
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="portfolio__discription">
+    <span>- BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO TOYS - BRIO
+      TOYS - BRIO TOYS - BRIO TOYS</span>
+    <span>- Funck TOYS - Funck TOYS - Funck TOYS - Funck TOYS - Funck TOYS - Funck TOYS - Funck TOYS - Funck TOYS
+      - Funck
+      TOYS - Funck TOYS - Funck TOYS</span>
+  </div>
+
+</body>
+
+</html>
