@@ -1,0 +1,29 @@
+.darkmode__btn{
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 8px;
+  top: 20px;
+  left: 20px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  .darkmode__round{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -4px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 150ms ease-in-out;
+  }
+  .left{
+    margin-left: -1px;
+  }
+  .center--r, .center--l{
+    margin-left: 17.5px;
+  }
+  .right{
+    margin-left: 36px;
+  }
+}
